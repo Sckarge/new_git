@@ -40,4 +40,8 @@ We use branches as a sort of sandbox to test our changes before pushing them to 
 ##Merge
 
 When we merging two branches, we may have some merge conflicts, these need to be resolved manually.  
-We can use 
+
+11. merge - merges the branch mentioned into our current branch  
+    git merge master(In case of conflicts solve in code editor)
+    We then need to commit the changes  
+NOTE: This merges into your current branch not master
