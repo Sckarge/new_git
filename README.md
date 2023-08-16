@@ -27,7 +27,9 @@ We can also add remote before add to connect to a git repo if we did not clone
 We use branches as a sort of sandbox to test our changes before pushing them to the master branch
 
 7. branch - to check all the branches (* will be present in front of current branch)  
-    git branch
+    Can be used with -d to delete a branch(to be used after a merge)
+    git branch  
+    git branch -d feature-branch-1  
 8. checkout - Used to switch to a branch, but, also to create branches using -b  
     git branch -b feature-branch-1  
 9. diff - to check the differences b/w your current branch and another branch  
