@@ -54,5 +54,5 @@ In git,we can undo add and commits, in the following ways-
     git reset HEAD~1 (used to change the header position at the last commit)
     git reset --hard deb4165278cf252d8509613f7d23feab7cdbe5f6
     (removes all changes with --hard, hash obtained from log)  
-13. log - log of all commits with their hashes
+13. log - log of all commits with their hashes  
     git log
