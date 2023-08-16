@@ -40,3 +40,4 @@ We use branches as a sort of sandbox to test our changes before pushing them to 
 ##Merge
 
 When we merging two branches, we may have some merge conflicts, these need to be resolved manually.  
+We can use 
