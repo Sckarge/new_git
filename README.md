@@ -20,4 +20,16 @@ We can also add remote before add to connect to a git repo if we did not clone
     git push  
     git push -u origin master  
 6. remote - Used with -v to get all remote repos attached  
-    git remote -v  
+    git remote -v
+
+## Branching
+
+We use branches as a sort of sandbox to test our changes before pushing them to the master branch
+
+7. branch - to check all the branches (* will be present in front of current branch)  
+    git branch
+8. checkout - Used to switch to a branch, but, also to create branches using -b  
+    git branch -b feature-branch-1  
+9. diff - to check the differences b/w your current branch and another branch  
+    git diff master  
+10. pull - Used to pull a branch from github to local. This can be done after some changes have been made to that branch that we need to make in our local.
