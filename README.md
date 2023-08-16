@@ -32,5 +32,5 @@ We use branches as a sort of sandbox to test our changes before pushing them to 
     git branch -b feature-branch-1  
 9. diff - to check the differences b/w your current branch and another branch  
     git diff master  
-10. pull - Used to pull a branch from github to local. This can be done after some changes have been made to that branch that we need to make in our local.
+10. pull - Used to pull a branch from github to local. This can be done after some changes have been made to that branch that we need to make in our local.  
     git pull (after upstream has been set)
