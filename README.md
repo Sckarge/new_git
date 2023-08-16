@@ -32,7 +32,7 @@ We use branches as a sort of sandbox to test our changes before pushing them to 
     git branch -d feature-branch-1  
 8. checkout - Used to switch to a branch, but, also to create branches using -b  
     git branch -b feature-branch-1  
-9. diff - to check the differences b/w your current branch and another branch  
+9. diff - to check the differences b/w your current branch and another branch(also shows unstaged changes)  
     git diff master  
 10. pull - Used to pull a branch from github to local. This can be done after some changes have been made to that branch that we need to make in our local.  
     git pull (after upstream has been set)
@@ -45,3 +45,10 @@ When we merging two branches, we may have some merge conflicts, these need to be
     git merge master(In case of conflicts solve in code editor)
     We then need to commit the changes  
 NOTE: This merges into your current branch not master
+
+## Undoing in git  
+In git,we can undo add and commits, in the following ways-
+
+12. reset - Used to reset changes
+    git reset (resets last add)
+    git reset HEAD~1 (used to change the header position at the last commit)
