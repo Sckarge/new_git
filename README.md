@@ -56,3 +56,6 @@ In git,we can undo add and commits, in the following ways-
     (removes all changes with --hard, hash obtained from log)  
 13. log - log of all commits with their hashes  
     git log
+
+## Forking
+We can use fork to make a copy of a whole repo and then eventually make a pull request to the original.  
